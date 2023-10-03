@@ -1,0 +1,33 @@
+h1 {
+  font-display: 2.5em;
+}
+a {
+  display:block;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ffffff;
+  background: #065577;
+  width: 25%;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+a:hover {
+  background-color: #F9C606;
+  color: #454540;
+}
+a:focus {
+  background-color: #F9C606;
+  color: #454540;
+}
+a:active {
+  border: 2px groove #454540;
+}
+footer {
+  color:#146AB3;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
