@@ -1,0 +1,72 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  background-color: #FCA6C9;
+  font-family: "Archivo Black","Lora","Open Sans",sans-serif;
+}
+/*
+/*
+  ========================================
+  Content
+  ========================================
+*/
+.hero h1, h3, p {
+  text-align: center;
+  color: #ffffff; 
+}
+.hero h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.5em;
+}
+.hero p{
+  font-family: 'Lora', serif;
+}
+.principles {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  width:45%;
+  margin:0 auto; 
+}
+
+.quote h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.1rem;
+  font-family: 'Lora', serif;
+}
+.quote h3 {
+  color: #000000;
+  font-family:'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+/*
+  ========================================
+  Image
+  ========================================
+*/
+img {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+/*
+  ========================================
+ Pseudo-Classes
+  ========================================
+*/
+.hero h1:hover {
+  color: #000000;
+}
+/*
+  ========================================
+  Tests
+  ========================================
+*/
+/*
+* {
+  border: 2px solid black;
+}
