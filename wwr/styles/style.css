@@ -73,7 +73,7 @@ footer, a{
   text-decoration: none;
 }
 
-footer a:hover{
+footer p a:hover {
   color:#FFD61C;
   text-decoration: underline;
 }
@@ -84,15 +84,12 @@ footer p{
 /* ==========================================
 Images 
 =========================================*/
-.logo {
+.logo, .icon {
   width: 80px;
 }
 
 #hero-img {
   width: 100%;
-}
-.icon {
-  width: 80px;
 }
 
 
