@@ -1,12 +1,17 @@
 /*=============================================
 General Set Up 
 =============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Noto+Sans+JP&family=Permanent+Marker&display=swap');
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0;
+  font-family: "Permanent Marker", "Merriweather Sans", "Noto Sans JP",sans-serif;
+  font-size: 22px;
 }
 
-nav a, #hero-msg h1, #hero-msg h4, .button-box, main {
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
   text-align: center;
 }
 
@@ -31,8 +36,11 @@ nav a {
   background:#2a5172;
   text-align: center;
   margin: 1%;
+  padding: 35px;
   color: #ffffff;
   text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 nav a:hover{
@@ -40,31 +48,57 @@ nav a:hover{
   color: #FFD61C;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 #hero-msg h1{
   color: #010440;
+  font-family: 'Permanent Marker', 'Merriweather Sans', cursive;
+  letter-spacing: 5px;
+  font-size: 2em;
 }
 #hero-msg h4{
   color: #2a5172;
 }
 
+.home-title {
+  margin-top: 10px;
+}
 .book, .join {
-  background: #4484b9;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background: #0D2CD9;
   color: #ffffff;
   text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
 }
 
 .book:hover, .join:hover {
-  background: #0D2CD9;
+  background: #4484b9;
   color: #ffffff;
 }
-
+/* #4484b9 */
 .msg, .msg p{
-  background: #ffffff;
-  color: #4484b9;
+  background: #2a5172;
+  color: #ffffff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  padding-bottom: 15px;
 }
 
 .msg h2{
-  color:#010440;
+  color:#e9edeb;
+}
+.msg {
+  padding: 35px;
+}
+
+h2 {
+  margin: 0;
 }
 
 footer, a{
@@ -79,7 +113,15 @@ footer p a:hover {
 }
 
 footer p{
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
+  font-family: 'Noto Sans JP', sans-serif;
+}
+footer {
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img{
+  padding-top: 15px;
 }
 /* ==========================================
 Images 
@@ -87,13 +129,31 @@ Images
 .logo, .icon {
   width: 80px;
 }
-
 #hero-img {
   width: 100%;
 }
-
-
-/*
-* {
-  border: 1px solid black;
+#logo_link {
+  padding-top: 5px;
 }
+.logo  {
+  padding-top: 5px;
+  margin-bottom: 30px;
+} 
+.icon {
+  padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.mountains {
+  margin: 50px 0 200px 0;
+}
+.card-img {
+  border: 10px solid #ffffff;
+}
+main section img {
+  box-sizing: border-box;
+}
+/* * {
+  border: 1px solid black;
+}  */

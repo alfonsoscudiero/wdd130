@@ -1,0 +1,31 @@
+body {
+  display: block;
+  width: 100%;
+}
+.top {
+  display: inline-block;
+  width: 1030px;
+  margin: 0;
+}
+.top img {
+  width: 100%;
+}
+.container {
+  background-color: #555555;
+  width: 1030px;
+}
+.buttom {
+  display: inline-block;
+  background: #555555;
+  margin: 0 auto;
+  width: 1030px;
+}
+.buttom img {
+  display: inline-block;
+  border: 12px solid #000;
+  border-radius: 50%;
+  width: 230px;
+  margin: 4rem 2rem;
+}
+
+
