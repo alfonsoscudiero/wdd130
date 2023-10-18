@@ -1,0 +1,39 @@
+.grid-container {
+  margin: 2%;
+  padding: 15px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+h1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  font-size: 5em;
+  letter-spacing: 4px;
+  z-index: 1;
+  border: 1px solid black;
+  
+  
+}
+img {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 45%;
+  margin: 0 auto;
+}
+.half {
+  background-color: darkgray;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+h2 {
+  color: darkred;
+  letter-spacing: 9px;
+  font-size: 3em;
+  font-weight: bold;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  
+  
+}
