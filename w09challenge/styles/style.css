@@ -1,0 +1,100 @@
+/* General Set Up */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Old+Uyghur&family=Roboto+Slab&display=swap');
+
+.content {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Noto Serif','Noto Serif Old Uyghur','Roboto Slab', serif;
+  color: #000000;
+  box-sizing: border-box;
+}
+.main-para {
+  margin-bottom: 5%;
+}
+/* Image Set Up */
+.hero-image image{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Typography */
+h1 {
+  font-family: 'Noto Serif', serif;
+  color: #000000;
+  font-size: 3em;
+  text-align: center;
+  margin: 0.5% auto 2% auto;
+}
+h2,h3,h4 {
+  font-family: 'Noto Serif Old Uyghur', serif;
+}
+h4 {
+  text-align: center;
+  color: blue;
+  margin-bottom: 0;
+}
+.main-para p {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+  height: 50px;
+  overflow: auto;
+}
+sup {
+  vertical-align: super;
+  font-family:serif;
+  font-size: smaller;
+}
+/* Grid Container */
+.container {
+  background: royalblue;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 1fr 50px;
+  grid-row-gap: 1%;
+  color: white;
+  /* margin-top: 1%; */
+}
+.readings {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.readings h2 {
+  text-align: center;
+}
+.readings p {
+  text-align: center;
+}
+.readings sup {
+  font-size: revert;
+}
+.views {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.views h2 {
+  text-align: center;
+}
+.views p {
+  text-align: center;
+}
+.comments {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.comments h2 {
+  text-align: center;
+}
+.comments p {
+  text-align: center;
+}
+/* *{
+  border: 1px solid black;
+} */
