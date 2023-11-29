@@ -9,37 +9,10 @@
   font-size: 22px;
   box-sizing: border-box;
 }
-
 body {
   background: #F6F1EE;
   color: #000000;
-}
-header{
-  background: #002D5F;
-  color: #F6F1EE;
-}
-nav a {
-  background:#002D5F;
-  text-align: center;
-  padding-top: 65px;
-  padding-left: 2%;
-  padding-right: 2%;
-  color: #F6F1EE;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
-}
-nav a:hover{
-  background: #F6F1EE;
-  color: #002D5F;
-  font-weight: bold;
-}
-.active {
-  background: #F6F1EE;
-  color: #4169E1;
-  font-weight: bold;
+  margin: 0;
 }
 .cta {
   padding: 15px 30px;
@@ -59,23 +32,7 @@ nav a:hover{
   font-weight: bold;
   border: 4px solid #CD2424;
 }
-footer, a {
-  background: #002D5F;
-  font-family: 'Hind Madurai', sans-serif;
-  color: #F6F1EE;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-footer p a:hover {
-  color:#E3B522;
-}
-footer {
-  padding: 25px 50px;
-}
-footer .social img {
-  display: inline-block;
-  padding-top: 15px;
-}
+
 /* Typography */
 h1 {
   font-family: "Gochi Hand", 'Montserrat', sans-serif;
@@ -92,9 +49,6 @@ h2, h3, h3, h4, h5 {
   font-size: 1.5rem;
 }
 /* Images */
-.logo {
-  width: 150px;
-}
 #hero-img {
   width: 100%;
   height: 100%; /* Full height */
@@ -107,9 +61,65 @@ h2, h3, h3, h4, h5 {
 }
 .card-img {
   width: 100%;
+  box-shadow: 0 0 3rem #002D5F;
 }
 
 /* Layout */
+.container-header {
+  background: #002D5F;
+}
+.container-header-content-social-media {
+  text-align: end;
+}
+.container-header-content-social-media img {
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.container-header-content-nav-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin: 0 1rem;
+  border-bottom: 1rem solid #002D5F;
+}
+.container-header-content-nav-bar-items{
+  display: flex;
+  justify-content: center;
+}
+.container-header-content-container-nav-bar-items {
+  width: 100%;
+}
+.container-header-content-nav-bar-items a {
+  color: #000000;
+  background: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding: 1rem 10rem;
+  transition: 0.5s;
+}
+.container-header-content-nav-bar-items .active {
+  color: #ce2029;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container-header-content-nav-bar-items a:hover {
+  color: #0054ac;
+  font-weight: bold;
+  text-decoration: overline;
+}
+.container-header-content-nav-bar-logo img {
+  width: 100%;
+  margin-left: 2rem;
+}
+.container-header-content-nav-bar-logo a {
+  background: white;
+}
+.container-header-content-nav-bar-logo {
+  width: 10%;
+}
 .container {
   align-items: center;
   justify-content: center;
@@ -133,10 +143,6 @@ h2, h3, h3, h4, h5 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-.logo-link {
-  justify-self: center;
-  align-self: center;
 }
 .flex-container {
   display: flex;
@@ -167,6 +173,65 @@ h2, h3, h3, h4, h5 {
 #hero-box {
   grid-column: 1/4;
   grid-row: 1/2;
+}
+.container-footer {
+  background: #002D5F;
+  color: #E3B522;
+  font-family: 'Mako', sans-serif;
+  width: 100%;
+}
+.container-footer-content {
+  width: 100%;
+}
+.container-footer-content-social-media {
+  text-align: end;
+}
+.container-footer-content-social-media img {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.container-footer-content-nav-bar {
+  display: flex;
+  align-items: center;
+}
+.container-footer-content-nav-bar-logo {
+  width: 10%;
+}
+.container-footer-content-nav-bar-logo img {
+  width: 100%;
+  margin-left: 2rem;
+}
+.container-footer-content-container-nav-bar-items {
+  display: flex;
+  justify-content: center;
+}
+.container-footer-content-container-nav-bar-items p a {
+  color: #ffffff;
+  margin-left: 10rem;
+  text-decoration: none;
+  font-size: 2.3rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.container-footer-content-container-nav-bar-items a:hover {
+  opacity: 1;
+}
+.container-footer-content-bottom {
+  background-color: #000913;
+  padding: 1.5rem;
+  text-align: center;
+}
+.container-footer-content-bottom p{
+  color: #F6F1EE;
+  font-size: 1.2rem;
+  text-align: end;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 auto; 
 }
 
 /* Position text in the middle of the page/image */
@@ -223,11 +288,6 @@ h2, h3, h3, h4, h5 {
 .data-analysis{
   grid-column: 8 / 10;
   grid-row: 2 / 3;
-}
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 /* TO Contact Form */
