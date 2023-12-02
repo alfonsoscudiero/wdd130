@@ -5,7 +5,7 @@
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  font-family: "Montserrat", "Hind Madurai", 'Mako' , "Gochi Hand" sans-serif;
+  font-family: "Montserrat", "Hind Madurai", 'Mako', "Gochi Hand", sans-serif;
   font-size: 22px;
   box-sizing: border-box;
 }
@@ -52,8 +52,6 @@ h2, h3, h3, h4, h5 {
 #hero-img {
   width: 100%;
   height: 100%; /* Full height */
-  filter: blur(10px); /* Add the blur effect */
-  -webkit-filter: blur(10px);
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -120,24 +118,6 @@ h2, h3, h3, h4, h5 {
 .container-header-content-nav-bar-logo {
   width: 10%;
 }
-.container {
-  align-items: center;
-  justify-content: center;
-  display: flex;  
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-}
-.bottom-container {
-  align-self: center;
-  align-items: center;
-  width: 100%;
-  padding: 0;
-  background-color: #f1f1f1;
-  border-top: 1px #002D5F;
-  border-bottom: 1px #002D5F;;
-}
 .header-content {
   padding: 1rem 2rem;
   flex-direction: row;
@@ -150,25 +130,15 @@ h2, h3, h3, h4, h5 {
   margin: 0;
   padding: 0;
 }
-#hero{
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-}
 .button-box {
   margin-top: 2%;
   padding-top: 5rem;
   text-align: center;
 }
-.flex-container {
-  display: flex;
-  /* We first create a flex layout context */
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  padding-top: 1%;
+  padding-top: 2px;
 }
 #hero-box {
   grid-column: 1/4;
@@ -179,6 +149,7 @@ h2, h3, h3, h4, h5 {
   color: #E3B522;
   font-family: 'Mako', sans-serif;
   width: 100%;
+  margin-top: 5%;
 }
 .container-footer-content {
   width: 100%;
@@ -221,7 +192,7 @@ h2, h3, h3, h4, h5 {
   padding: 1.5rem;
   text-align: center;
 }
-.container-footer-content-bottom p{
+.container-footer-content-bottom p {
   color: #F6F1EE;
   font-size: 1.2rem;
   text-align: end;
@@ -233,11 +204,68 @@ h2, h3, h3, h4, h5 {
   font-weight: 400;
   margin: 0 auto; 
 }
-
+.story-container, .experience-container, .hobbies-container {
+  /* margin-top: 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.story-container-img, .inspiration-container-img, .experience-container-img, .skills-container-img, .hobbies-container-img {
+  margin-left: 2%;
+  padding: 1%;
+}
+.story-container-message, .experience-container-message, .hobbies-container-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 5%;
+  padding-left: 2rem;
+}
+.story-container h2, .experience-container h2, .hobbies-container-message h2 {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 2rem;
+}
+.story-container p, .experience-container p, .hobbies-container-message p {
+  font-family: 'Mako', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.inspiration-container, .skills-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 3rem auto 0;
+  /* background: #002d5f; */
+  padding: 2rem;
+  border-radius: 25px;
+  background-image: linear-gradient(to left bottom, #005a8c, #004e81, #004376, #00386b, #002d5f);
+}
+.inspiration-container-message, .skills-container-message {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 2%;
+}
+.inspiration-container-message h2, .skills-container-message h2 {
+  font-size: 2rem;
+  color: #f6f1ee;
+}
+.inspiration-container-message p, .skills-container-message p {
+  font-family: "Mako";
+  color: white;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
 /* Position text in the middle of the page/image */
   #hero-msg {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;

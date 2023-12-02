@@ -1,99 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alfonso Scudiero - About Me</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <div class="content">
 
-    <header>
-      <a class="logo_link" href='index.html'>
-          <img class="logo" src='images/my_logo.png' alt="Alfonso Scudiero Logo">
-      </a>
-      <nav class="flex-container">
-        <a href="index.html">Home</a>
-        <a href='about.html'>About</a>
-        <a href='resume.html'>Resume</a>
-      </nav>
+    <header class="container-header">
+      <div class="container-header-content">
+        <div class="container-header-content-social-media">
+          <a href="https://www.linkedin.com/in/alfonso-scudiero/" target="_blank">
+            <img src='images/LinkedIn_y.png' alt="LinkedIn icon" title="LinkedIn" />
+          </a>
+          <a href='https://github.com/alfonsoscudiero' target="_blank">
+            <img src='images/GitHub_y.png' alt="GitHub Icon" title="GitHub" />
+          </a>
+        </div>
+        <div class="container-header-content-nav-bar">
+          <div class="container-header-content-nav-bar-logo">
+            <img src='images/my_logo-svg.png' alt="Alfonso Scudiero Logo">
+          </div>
+          <div class="container-header-content-container-nav-bar-items">
+            <nav class="container-header-content-nav-bar-items">
+              <a href="index.html">Home</a>
+              <a class='active' href='about.html'>About</a>
+              <a href='resume.html'>Resume</a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
 
     <div id="hero">
       <div id="hero-box">
-        <img id="hero-img" src='images/About/hero-about.jpg' alt='View of Utah Valley from Squaw Peak - Zoom of Venezuelan baseball cap'>
+        <img id="hero-img" src='images/About/hero-about.jpg'
+          alt='View of Utah Valley from Squaw Peak - Zoom of Venezuelan baseball cap'>
       </div>
       <section id="hero-msg">
         <h1 class="home-title">Let's Know About Me</h1>
         <p>This is my Journey</p>
-        <!-- <div class='button-box'>
-          <a class='cta' href=''>Learn more about me</a> -->
       </section>
     </div>
 
-    <main class="home-grid">
-      <section class='story'>
-        <div class='intro-img'><img src='images/About/my-story.jpg' alt='View of the General Rafael Urdaneta Bridge, iconic landmarks of Maracaibo, Venezuela'/></div>
-        <div class="my-story">
-        <h2>My Story</h2>
-         <p>The journey I have embarked upon has been defined by resilience and an unwavering pursuit of growth. Overcoming challenges has shaped my character and fueled my passion for continuous self-improvement, defining my commitment to personal and professional development.</p>
+    <main>
+      <section class='story-container'>
+        <div class='story-container-img'><img src='images/About/my-story.jpg'
+            alt='View of the General Rafael Urdaneta Bridge, iconic landmarks of Maracaibo, Venezuela'/></div>
+        <div class="story-container-message">
+          <h2>My Story</h2>
+          <p>The journey I have embarked upon has been defined by resilience and an unwavering pursuit of growth.
+          Overcoming challenges has shaped my character and fueled my passion for continuous self-improvement,
+          defining my commitment to personal and professional development.</p>
         </div>
-      </section>  
+      </section>
 
-      <section class='inspiration'>
-        <div class='inspiration-img'><img src='images/About/my-inspiration.jpg' alt='The Provo Utah Temple, Temple of the Church of Jesus Christ of Latter-day Saints'/></div>
-        <div class="my-inspiration">
+      <section class='inspiration-container'>
+        <div class='inspiration-container-img'><img src='images/About/my-inspiration.jpg'
+          alt='The Provo Utah Temple, Temple of the Church of Jesus Christ of Latter-day Saints' /></div>   
+        <div class="inspiration-container-message">
           <h2>My Source of Drive</h2>
-          <p>Drawing inspiration from the transformative power of perseverance and the profound impact of meaningful human connections, my drive is rooted in the desire to make a positive impact. My values and experiences have shaped my dedication to excellence and my vision for contributing to the betterment of the community.</p>
+          <p>Drawing inspiration from the transformative power of perseverance and the profound impact of meaningful
+          human connections, my drive is rooted in the desire to make a pohave shaped my dedication to excellence and my vision for contributing to the betterment of the community.</p>
         </div>
       </section>
 
-      <section class='experience'>
-        <div class='experience-img'><img src='images/About/my-journey.jpg' alt='A Navy Officer Commisioned Abroad on the 2002 Circumnavigation Cruise'/></div>
-        <div class="my-experience">
+      <section class='experience-container'>
+        <div class='experience-container-img'><img src='images/About/my-journey.jpg'
+            alt='A Navy Officer Commisioned Abroad on the 2002 Circumnavigation Cruise' /></div>
+        <div class="experience-container-message">
           <h2>My Professional Journey</h2>
-          <p>With a diverse professional background spanning various industries, I have acquired a wealth of experience in project management, data analysis, and global supply chain operations. Through these experiences, I have gained valuable insights and developed a comprehensive understanding of complex business landscapes.</p>
+          <p>With a diverse professional background spanning various industries, I have acquired a wealth of experience
+            in project management, data analysis, and global supply chain operations. Through these experiences, I have
+            gained valuable insights and developed a comprehensive understanding of complex business landscapes.</p>
         </div>
       </section>
 
-      <section class='competencies'>
-        <div class='competencies-img'><img src='images/About/my-skills.jpg' alt='View of Meteorological Stations and Vessel Traffic Control of Lake Maracaibo in Venezuela'/></div>
-        <div class="my-competencies">
+      <section class='skills-container'>
+        <div class='skills-container-img'><img src='images/About/my-skills.jpg'
+          alt='View of Meteorological Stations and Vessel Traffic Control of Lake Maracaibo in Venezuela' /></div>
+        <div class="skills-container-message">
           <h2>My Skills</h2>
-          <p>With a diverse professional background spanning various industries, I have acquired a wealth of experience in project management, data analysis, and global supply chain operations. Through these experiences, I have gained valuable insights and developed a comprehensive understanding of complex business landscapes.</p>
+          <p>With a diverse professional background spanning various industries, I have acquired a wealth of experience
+            in project management, data analysis, and global supply chain operations. Through these experiences, I have
+            gained valuable insights and developed a comprehensive understanding of complex business landscapes.</p>
         </div>
+
       </section>
 
-      <section class='hobbies'>
-        <div class='hobbies-img'><img src='images/About/my-hobbies.jpg' alt='Enjoying of the Beautiful Lakes and Mountains of Utah'/></div>
-        <div class="my-hobbies">
+      <section class='hobbies-container'>
+        <div class='hobbies-container-img'><img src='images/About/my-hobbies.jpg'
+            alt='Enjoying of the Beautiful Lakes and Mountains of Utah' /></div>
+        <div class="hobbies-container-message">
           <h2>My Hobbies</h2>
-          <p>Beyond my professional endeavors, I find joy in exploring the outdoors, engaging in continuous learning, participating in Crossfit, and embarking on adventures through travel. These hobbies provide me with a well-rounded perspective that enhances my creativity and problem-solving abilities, contributing to a balanced approach to both life and work.</p>
+          <p>Beyond my professional endeavors, I find joy in exploring the outdoors, engaging in continuous learning,
+            participating in Crossfit, and embarking on adventures through travel. These hobbies provide me with a
+            well-rounded perspective that enhances my creativity and problem-solving abilities, contributing to a
+            balanced approach to both life and work.</p>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="footer-container">
-        <a class="logo_link" href='index.html'>
-        <img class="logo" src='images/my_logo.png' alt="Alfonso Scudiero Logo">
-        <p>Alfonso Scudiero &copy;2023</p>
-        <p><a href="index.html">Home</a></p>
-        <p><a href='resume.html'>Resume</a></p>
-        <p><a href='site-plan.html'>Site Plan</a></p>
+    <footer class="container-footer">
 
-        <div class="social">
+      <div class="container-footer-content">
+        <div class="container-footer-content-social-media">
           <a href="https://www.linkedin.com/in/alfonso-scudiero/" target="_blank">
-          <img src='images/LinkedIn.png' alt="LinkedIn icon" />
+            <img src='images/LinkedIn_y.png' alt="LinkedIn icon" title="LinkedIn" />
           </a>
           <a href='https://github.com/alfonsoscudiero' target="_blank">
-          <img src='images/GitHub.png' alt="GitHub Icon" />
+            <img src='images/GitHub_y.png' alt="GitHub Icon" title="GitHub" />
           </a>
-          <!-- <a href='' target="_blank">
-          <img src='images/Instagram.png' alt="Instagram icon" />
-          </a> -->
         </div>
-      </div>
+
+        <div class="container-footer-content-nav-bar">
+          <div class="container-footer-content-nav-bar-logo">
+            <img src='images/my_logo-svg.png' alt="Alfonso Scudiero Logo">
+          </div>
+          <div class="container-footer-content-container-nav-bar-items">
+            <p><a href='about.html'>About</a></p>
+            <p><a href='resume.html'>Resume</a></p>
+            <p><a href='site-plan.html'>Site Plan</a></p>
+          </div>
+
+        </div>
+        <div class="container-footer-content-bottom">
+          <p>Copyright &copy;2023 | Designed by <span class="designer">A. Scudiero</span></p>
+        </div>
     </footer>
   </div>
 </body>
