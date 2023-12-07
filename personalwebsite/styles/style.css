@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Hind+Madurai&family=Mako&family=Montserrat&display=swap');
 /* Set Up */
 #content {
-  max-width: 1600px;
+  max-width: 1920px;
   height: 100%;
   margin: 0 auto;
   padding: 0;
@@ -95,8 +95,9 @@ h2, h3, h3, h4, h5 {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  padding: 1rem 10rem;
+  /* padding: 1rem 10rem; */
   transition: 0.5s;
+  margin: 0 7rem;
 }
 .container-header-content-nav-bar-items .active {
   color: #ce2029;
@@ -109,7 +110,7 @@ h2, h3, h3, h4, h5 {
   text-decoration: overline;
 }
 .container-header-content-nav-bar-logo img {
-  width: 100%;
+  width: 55%;
   margin-left: 2rem;
 }
 .container-header-content-nav-bar-logo a {
@@ -169,7 +170,7 @@ h2, h3, h3, h4, h5 {
   width: 10%;
 }
 .container-footer-content-nav-bar-logo img {
-  width: 100%;
+  width: 50%;
   margin-left: 2rem;
 }
 .container-footer-content-container-nav-bar-items {
@@ -373,3 +374,194 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #002D5F;
 }
+/* Resume style */
+.row-padding {
+  display: flex;
+  /* max-width: 1600px; */
+  color: black;
+  font-family: 'Montserrat', "Hind Madurai",'Mako', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  padding: 2rem 1rem;
+  /* margin: 5rem 0 0; */
+  background: #F6F1EE;
+  gap: 5rem;
+  margin: 0 2rem;
+}
+.one-third {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  padding: 1rem;
+  width: 30%;
+  background: #fff;
+}
+.one-third-container {
+  color: #757575!important;
+}
+.one-third-container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+  justify-items: start;
+}
+.one-third-container-card img {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.one-third-container-card-bottom-left {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+.one-third-container-card-bottom-left h3 {
+  color: white;
+  padding-top: 6rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+.one-third-container-left {
+  margin-top: 1rem;
+}
+#one-third-container-left-center {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 10% auto;
+  justify-content: center;
+  align-items: center;
+}
+#one-third-container-left-center img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 95%;
+}
+#one-third-container-left-center-heading {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+#one-third-container-left-center-heading h2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 0 0 0 2rem;
+}
+#one-third-container-left-center-skills {
+  grid-row: 2/3;
+  grid-column: 1/7;
+  margin: 0;
+}
+#skills-list {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0.5rem;
+}
+.brake-line {
+  margin: 3rem 1rem;
+}
+.one-third-container-left-bottom {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 10% auto;
+  justify-content: center;
+  align-items: center;
+}
+.one-third-container-left-bottom img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 95%;
+}
+.one-third-container-left-bottom-heading {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.one-third-container-left-bottom-heading h2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 0 0 0 2rem;
+}
+.one-third-container-left-bottom-education{
+  grid-row: 2/3;
+  grid-column: 1/7;
+  margin: 0;
+}
+.one-third-container-left-bottom-education-colleges {
+  padding: 1rem 0;
+}
+.one-third-container-left-bottom-education-colleges h3 {
+  margin: 1rem auto 0;
+  font-size: 1.4rem;
+  color: #555555;
+}
+.one-third-container-left-bottom-education-colleges h4 {
+  margin: 0 auto;
+  font-family: Hind Madurai;
+  font-size: 1.2rem;
+  color: #808080;
+}
+.one-third-container-left-bottom-education-colleges p {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0.5rem;
+}
+.two-third-container-summary {
+  background: white;
+  padding: 2rem 3rem 2rem;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.two-third-container-summary-img, .two-third-container-experience-img {
+  display: flex;
+  align-items: center;
+  width: 5%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.two-third-container-summary-img img, .two-third-container-experience-img img {
+  width: 100%;
+}
+.two-third-container-summary-img h2, .two-third-container-experience-img h2 {
+  margin: 0;
+  margin-left: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+.two-third-container-summary-info p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #757575!important;;
+}
+.two-third-container-experience {
+  background: white;
+  padding: 2rem 3rem 2rem;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 3rem;
+}
+.two-third-container-jobs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.two-third-container-jobs-title h4 {
+  margin: 0;
+  margin-top: 1rem;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  columns: #000;
+}
+.two-third-container-jobs-title h5 {
+  margin: 0;
+  margin-top: 1rem;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  columns: #000;
+}
+.two-third-container-jobs-bulletpoints {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.5rem;
+  color: #757575!important;
+}
+/* .hr.new1 {
+  border: 1px solid red;
+} */

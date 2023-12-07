@@ -1,160 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alfonso Scudiero - My Resume</title>
-</head>
-<body>
-  <div class="content">
-    <header>
-      <a class="logo_link" href='index.html'>
-          <img class="logo" src='images/my_logo.png' alt="Alfonso Scudiero Logo">
-      </a>
-      <nav class="flex-container">
-        <a href="index.html">Home</a>
-        <a href='about.html'>About</a>
-        <a href='resume.html'>Resume</a>
-      </nav>
-    </header>
-
-    <main class="home-grid">
-      <div class="row-padding">
-        <!-- Left Column -->
-        <div class="one third"> 
-          <div class="card">
-            <div class="display-container">
-              <img src="images/resume/as_photo.jpg" alt="Professional Headshot">
-              <div class="bottom-left">
-                <h3>Alfonso Scudiero</h3>
-              </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfonso Scudiero - My Resume</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header class="container-header">
+        <div class="container-header-content">
+          <div class="container-header-content-social-media">
+            <a
+              href="https://www.linkedin.com/in/alfonso-scudiero/"
+              target="_blank"
+            >
+              <img
+                src="images/LinkedIn.png"
+                alt="LinkedIn icon"
+                title="LinkedIn"
+              />
+            </a>
+            <a href="https://github.com/alfonsoscudiero" target="_blank">
+              <img src="images/GitHub.png" alt="GitHub Icon" title="GitHub" />
+            </a>
+          </div>
+          <div class="container-header-content-nav-bar">
+            <div class="container-header-content-nav-bar-logo">
+              <img src="images/my_logo-svg.png" alt="Alfonso Scudiero Logo" />
             </div>
-            <section class="left-container">
-              <div id="skills-container">
-                <img src='images/resume/Skill.png' alt="Skills Icon">
-                <h2>Skills</h2>
+            <div class="container-header-content-container-nav-bar-items">
+              <nav class="container-header-content-nav-bar-items">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a class="active" href="resume.html">Resume</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="row-padding">
+        <!-- Left Column -->
+        <div class="one-third">
+          <div class="one-third-container">
+            <div class="one-third-container-card">
+              <img
+                src="images/resume/as_photo.jpg"
+                alt="Professional Headshot"
+              />
+              <!-- <div class="one-third-container-card-bottom-left">
+                <h3>Alfonso Scudiero</h3>
+              </div> -->
+            </div>
+
+            <section class="one-third-container-left">
+              <div id="one-third-container-left-center">
+                <img src="images/resume/Skill.png" alt="Skills Icon" />
+                <div id="one-third-container-left-center-heading">
+                  <h2>Skills</h2>
+                </div>
+                <div id="one-third-container-left-center-skills">
+                  <ul id="skills-list">
+                    <li>Web Development</li>
+                    <li>HTML5, CSS3, Python, & SQL</li>
+                    <li>Tableau and Power BI</li>
+                    <li>Visual Studio Code (IDE)</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Data Analysis</li>
+                    <li>Data Visualization</li>
+                    <li>Demand Forecasting</li>
+                    <li>Cost Optimization</li>
+                    <li>Problem-Solving Agility</li>
+                    <li>Effective Communication & Collaboration</li>
+                    <li>Attention to Detail</li>
+                    <li>Continuos Improvement</li>
+                    <li>Task Flexibility</li>
+                    <li>Intrapersonal Skills</li>
+                    <li>Technical Proficiency</li>
+                    <li>Compliance Management</li>
+                  </ul>
+                </div>
               </div>
-              <ul id="skills-list">
-                <li>Web Development</li>
-                <li>HTML5, CSS3, Python, & SQL</li>
-                <li>Tableau and Power BI</li>
-                <li>Visual Studio Code (IDE)</li>
-                <li>Microsoft Office Suite</li>
-                <li>Data Analysis</li>
-                <li>Data Visualization</li>
-                <li>Demand Forecasting</li>
-                <li>Cost Optimization</li>
-                <li>Problem-Solving Agility</li>
-                <li>Effective Communication & Collaboration</li>
-                <li>Attention to Detail</li>
-                <li>Continuos Improvement</li>
-                <li>Task Flexibility</li>
-                <li>Intrapersonal Skills</li>
-                <li>Technical Proficiency</li>
-                <li>Compliance Management</li>
-              </ul>
-              <hr>
-              <div id="education-container">
-                <img src='images/resume/Education.png' alt="Education Icon">
-                <h2>Education</h2>
-              </div>
-              <div id="education-list">
-                <div id="byu-pathway">
-                  <h3>Bachelor in Software Development</h3>
-                  <h4>BYU Idaho, Rexburg, Idaho</h4>
-                  <p>Expected 2028</p>
+
+              <hr class="brake-line" />
+
+              <div class="one-third-container-left-bottom">
+                <img src="images/resume/Education.png" alt="Education Icon" />
+                <div class="one-third-container-left-bottom-heading">
+                  <h2>Education</h2>
                 </div>
-                <div id="env-spec">
-                  <h3>Specialization in Hydrography</h3>
-                  <h4>Venezuelan Navy, Meseta de Mamo, Venezuela</h4>
-                  <p>2005 - 2007</p>
-                  <p>Graduating with Honors</p>
-                </div>
-                <div id="env-ba">
-                  <h3>Bachelor in Naval Sciences</h3>
-                  <h4>Venezuelan Navy, Meseta de Mamo, Venezuela </h4>
-                  <p>1996 - 2001</p>
-                  <p>Graduating with Honors</p>
-                </div>
-                <div id="ensign-college">
-                  <h3>Associate in Global Supply Chain & Operations</h3>
-                  <h4>Ensign College, Salt Lake City, Utah</h4>
-                  <p>2018 - 2021</p>
-                  <p>Graduating with Honors</p>
+                <div class="one-third-container-left-bottom-education">
+                  <div
+                    class="one-third-container-left-bottom-education-colleges"
+                  >
+                    <h3>Bachelor in Software Development</h3>
+                    <h4>BYU Pathway, Rexburg, Idaho</h4>
+                    <p>Expected 2028</p>
+                  </div>
+                  <div
+                    class="one-third-container-left-bottom-education-colleges"
+                  >
+                    <h3>Specialization in Hydrography</h3>
+                    <h4>Venezuelan Navy, Meseta de Mamo, Venezuela</h4>
+                    <p>2005 - 2007</p>
+                    <!-- <p>Graduating with Honors</p> -->
+                  </div>
+                  <div
+                    class="one-third-container-left-bottom-education-colleges"
+                  >
+                    <h3>Bachelor in Naval Science</h3>
+                    <h4>Venezuelan Navy, Meseta de Mamo, Venezuela</h4>
+                    <p>1996 - 2001</p>
+                    <!-- <p>Graduating with Honors</p> -->
+                  </div>
+                  <div
+                    class="one-third-container-left-bottom-education-colleges"
+                  >
+                    <h3>Associate in Global Supply Chain & Operations</h3>
+                    <h4>Ensign College, Salt Lake City, Utah</h4>
+                    <p>2018 - 2021</p>
+                    <!-- <p>Graduating with Honors</p> -->
+                  </div>
                 </div>
               </div>
             </section>
           </div>
         </div>
+
         <!-- Right Side   -->
-        <section id="two-third">
-          <div class="right-container">
-            <div class="summary-info">
-              <h2>Summary</h2>
-              <img src= 'images/resume/Summary.png' alt="Summary Icon">
-              <p>Aspiring Front End Developer transitioning into the field with a solid foundation in project management, procurement, and daya analysis. Excited to apply my technical skills and creativity in a dynamic entry-level Front End Developer role. Committed to learning and contributing effectively to support the company's goals in web development and user interface design.</p>
-            </div>
-            <div class="jobs-container">
-              <div class="experience">
-                <img src= 'images/resume/Job.png' alt="Job Icon">
-                <h3>Professional Experience</h3>
-                <div id="powder-river">
-                  <h4>Powder River, Inc <br> Buyer | Planner</h4>
-                  <h5>Mar 2021 to Sep 2023</h5>
-                  <ul>
-                    <li>Spearheaded strategic planning decisions by managing and analyzing procurement records, ensuring strict adherence to company quality procedures and standards, resulting in a 10% reduction in operational expenses from Q3 2022 to Q3 2023.</li>
-                    <li>Played a pivotal role in daily production planning using Material Requirements Planning (MRP), ensuring seamless just-in-time manufacturing operations through meticulous purchase order placement and adept resolution of receiving issues.</li>
-                  </ul>
-                </div>
-                <hr>
-                <div id="church-jesus-christ">
-                  <h4>The Church of Jesus Christ of Latter-day Saints <br> Supply Chain Management Intern</h4>
-                  <h5>Aug 2020 to Mar 2021</h5>
-                  <ul>
-                    <li>Collaborated on data projects with senior managers, including spreadsheet development, data cleansing, and data wrangling, emphasizing attention to detail and analytical skills.</li>
-                    <li>Streamlined operations by processing, dispatching, and monitoring work orders for over 3000 Church buildings across the US West Coast, utilizing PeopleSoft systems</li>
-                  </ul>
-                </div>
-                <hr>
-                <div id="ietelmarin">
-                  <h4>IETELMARIN <br> Associate Project Manager</h4>
-                  <h5>Jan 2011 to Dec 2016</h5>
-                  <ul>
-                    <li>Provided expert guidance on specifications and installation of 16 meteorological stations and 20 aids to navigation, ensuring compliance with company quality procedures and standards.</li>
-                    <li>Strategically planned and managed the installation of 650 electronic chart vessel displays, significantly improving operational procedures and navigation traffic tracking, demonstrating technical proficiency and strategic planning skills.</li>
-                  </ul>
-                </div>
+        <div class="two-third">
+          <div class="two-third-container">
+            <div class="two-third-container-summary">
+              <div class="two-third-container-summary-img">
+                <img src="images/resume/Summary.png" alt="Summary Icon" />
+                <h2>Summary</h2>
+              </div>
+
+              <div class="two-third-container-summary-info">
+                <p>
+                  Aspiring Front End Developer transitioning into the field with
+                  a solid foundation in project management, procurement, and
+                  daya analysis. Excited to apply my technical skills and
+                  creativity in a dynamic entry-level Front End Developer role.
+                  Committed to learning and contributing effectively to support
+                  the company's goals in web development and user interface
+                  design.
+                </p>
               </div>
             </div>
-          </div>
-        </section>
 
-      </div>
-    </main>
+            <section class="two-third-container">
+              <div class="two-third-container-experience">
+              
+                <div class="two-third-container-experience-img">
+                  <img src="images/resume/Job.png" alt="Job Icon" />
+                  <h2>Professional Experience</h2>
+                </div>
+
+                <hr class="brake-line" />  
+
+                <div class="two-third-container-jobs">
+                  <div class="two-third-container-jobs-title">
+                    <h4>
+                      Powder River, Inc <br />
+                      Buyer | Planner
+                    </h4>
+                    <h5>Mar 2021 to Sep 2023</h5>
+                  </div>
+                  <div class="two-third-container-jobs-bulletpoints">
+                    <ul>
+                      <li>
+                        Spearheaded strategic planning decisions by managing and
+                        analyzing procurement records, ensuring strict adherence
+                        to company quality procedures and standards, resulting in
+                        a 10% reduction in operational expenses from Q3 2022 to Q3
+                        2023.
+                      </li>
+                      <li>
+                        Played a pivotal role in daily production planning using
+                        Material Requirements Planning (MRP), ensuring seamless
+                        just-in-time manufacturing operations through meticulous
+                        purchase order placement and adept resolution of receiving
+                        issues.
+                      </li>
+                  </div>
          
-    <footer>
-      <div class="footer-container">
-        <a class="logo_link" href='index.html'>
-        <img class="logo" src='images/my_logo.png' alt="Alfonso Scudiero Logo">
-        <p>Alfonso Scudiero &copy;2023</p>
-        <p><a href="index.html">Home</a></p>
-        <p><a href='about.html'>About</a></p>
-        <p><a href='site-plan.html'>Site Plan</a></p>
+                  <div class="two-third-container-jobs-title">
+                    <h4>The Church of Jesus Christ of Latter-day Saints <br/>
+                      Supply Chain Management Intern
+                    </h4>
+                    <h5>Aug 2020 to Mar 2021</h5>  
+                  </div>
+                  <div class="two-third-container-jobs-bulletpoints">
+                    <ul>
+                      <li>
+                        Collaborated on data projects with senior managers,
+                        including spreadsheet development, data cleansing, and
+                        data wrangling, emphasizing attention to detail and
+                        analytical skills.
+                      </li>
+                      <li>
+                        Streamlined operations by processing, dispatching, and
+                        monitoring work orders for over 3000 Church buildings
+                        across the US West Coast, utilizing PeopleSoft systems
+                      </li>
+                    </ul>
+                  </div>
+                <hr class="hr.new1" />
 
-        <div class="social">
-          <a href="https://www.linkedin.com/in/alfonso-scudiero/" target="_blank">
-          <img src='images/LinkedIn.png' alt="LinkedIn icon" />
-          </a>
-          <a href='https://github.com/alfonsoscudiero' target="_blank">
-          <img src='images/GitHub.png' alt="GitHub Icon" />
-          </a>
-          <!-- <a href='' target="_blank">
-          <img src='images/Instagram.png' alt="Instagram icon" />
-          </a> -->
+                  <div class="two-third-container-jobs-title">
+                    <h4>
+                      IETELMARIN <br />
+                      Associate Project Manager
+                    </h4>
+                    <h5>Jan 2011 to Dec 2016</h5>  
+                  </div>
+                  <div class="two-third-container-jobs-bulletpoints">
+                    <ul>
+                      <li>
+                        Provided expert guidance on specifications and
+                        installation of 16 meteorological stations and 20 aids to
+                        navigation, ensuring compliance with company quality
+                        procedures and standards.
+                      </li>
+                      <li>
+                        Strategically planned and managed the installation of 650
+                        electronic chart vessel displays, significantly improving
+                        operational procedures and navigation traffic tracking,
+                        demonstrating technical proficiency and strategic planning
+                        skills.
+                      </li>
+                    </ul>                
+                  </div>
+                  
+
+
+
+
+
+               
+              </div>
+            </section>
+
+
+          </div>
         </div>
-      </div>
-    </footer>
-  </div>
-  
-</body>
+      </main>
+
+      <footer class="container-footer">
+        <div class="container-footer-content">
+          <div class="container-footer-content-social-media">
+            <a
+              href="https://www.linkedin.com/in/alfonso-scudiero/"
+              target="_blank"
+            >
+              <img
+                src="images/LinkedIn.png"
+                alt="LinkedIn icon"
+                title="LinkedIn"
+              />
+            </a>
+            <a href="https://github.com/alfonsoscudiero" target="_blank">
+              <img src="images/GitHub.png" alt="GitHub Icon" title="GitHub" />
+            </a>
+          </div>
+
+          <div class="container-footer-content-nav-bar">
+            <div class="container-footer-content-nav-bar-logo">
+              <img src="images/my_logo-svg.png" alt="Alfonso Scudiero Logo" />
+            </div>
+            <div class="container-footer-content-container-nav-bar-items">
+              <p><a href="about.html">About</a></p>
+              <p><a href="resume.html">Resume</a></p>
+              <p><a href="site-plan.html">Site Plan</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-footer-content-bottom">
+          <p>
+            Copyright &copy;2023 | Designed by
+            <span class="designer">A. Scudiero</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
