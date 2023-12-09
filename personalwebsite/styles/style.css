@@ -547,14 +547,14 @@ input[type=submit]:hover {
   margin-top: 1rem;
   font-family: "Montserrat";
   font-size: 1.5rem;
-  columns: #000;
+  color: #000;
 }
 .two-third-container-jobs-title h5 {
   margin: 0;
   margin-top: 1rem;
   font-family: "Montserrat";
   font-size: 1.2rem;
-  columns: #000;
+  color: #000;
 }
 .two-third-container-jobs-bulletpoints {
   line-height: 2.5rem;
